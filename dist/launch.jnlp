@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>CMS</title>
+        <vendor>Dell</vendor>
+        <homepage href=""/>
+        <description>Developer : Mandeep Singh</description>
+        <description kind="short">CMS</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="CMS.jar" main="true"/>
+    <jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+<jar href="lib/jcalendar-1.4.jar"/>
+<jar href="lib/JTimeChooser.jar"/>
+<jar href="lib/jcalendar-1.4.jar"/>
+<jar href="lib/beansbinding-1.2.1.jar"/>
+<jar href="lib/junit-4.6.jar"/>
+<jar href="lib/jgoodies-common-1.2.0.jar"/>
+</resources>
+    <application-desc main-class="cms.CMS">
+    </application-desc>
+</jnlp>
